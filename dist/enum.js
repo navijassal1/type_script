@@ -5,6 +5,7 @@
  * Enums come in two flavors string and numeric.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+//NUMERIC
 var status;
 (function (status) {
     status[status["SUCCESS"] = 200] = "SUCCESS";
@@ -14,6 +15,7 @@ var status;
 console.log('SUCCESS ', status.SUCCESS);
 console.log('NOT_FOUND ', status.NOT_FOUND);
 console.log('BAD_REQUEST ', status.BAD_REQUEST);
+// STRING
 var cities;
 (function (cities) {
     cities["PUNJAB"] = "PUNJAB";
