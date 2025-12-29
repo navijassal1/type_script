@@ -95,6 +95,7 @@ class bike extends bikeColor {
     }
 }
 let b = new bike();
+console.log(b.greet(), 'Greet directly from abstarct class');
 console.log(b.getColor, 'using abstract class');
 b.setColor = 'blue';
 console.log(b.getColor, 'new bike color');
